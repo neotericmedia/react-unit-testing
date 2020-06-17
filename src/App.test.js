@@ -1,9 +1,23 @@
 import React from 'react';
-import { render } from '@testing-library/react';
-import App from './App';
+// import { render } from '@testing-library/react';
+import { Total } from './App';
+import add from './add';
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+
+
+
+
+test('<Total/>', () => {
+  expect(Total(5, 20)).toBe('$25')
+})
+
+
+
+
+
+
+// test('fake explaning', () => {
+//   expect(true).toBeTruthy();
+// })
+
+
