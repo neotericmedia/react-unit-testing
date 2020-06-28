@@ -4,5 +4,5 @@ import './App.css';
 import { add } from './add';
 
 export const Total = (shipping, subTotal) => {
-  return '$$' + add(shipping, subTotal);
+  return '$' + add(shipping, subTotal);
 }
